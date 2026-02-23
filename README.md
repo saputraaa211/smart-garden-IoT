@@ -28,8 +28,9 @@ The ESP32 is responsible for:
 - Data transmission to backend server
   
 ## 🏗 Original Architecture
-```bash 
-Sensors → ESP32 (Fuzzy Logic Engine) → FastAPI Backend (WebSocket Server) → Web Monitoring Client (Real-Time UI)```
+```
+Sensors → ESP32 (Fuzzy Logic Engine) → FastAPI Backend (WebSocket Server) → Web Monitoring Client (Real-Time UI)
+```
 
 The system utilized WebSocket communication to enable real-time, bidirectional data exchange between the backend server and the web client. This approach allowed instant status updates and responsive control without polling delays.
 
@@ -66,3 +67,11 @@ This project demonstrates:
 - WebSocket-based real-time communication design
 - Adaptive irrigation control beyond simple threshold systems
 The backend and web monitoring components can be redeveloped based on the documented architecture if required.
+
+## 📷 Preview
+Website monitoring:
+![IoT2](https://github.com/user-attachments/assets/867ed7bd-8bce-4da2-acb4-31d9c335e09d)
+
+Hardware:
+![IoT1](https://github.com/user-attachments/assets/b55586b8-4666-43e5-8f38-3c66525a1200)
+
