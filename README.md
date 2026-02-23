@@ -28,7 +28,9 @@ The ESP32 is responsible for:
 - Data transmission to backend server
   
 ## 🏗 Original Architecture
-`Sensors → ESP32 (Fuzzy Logic Engine) → FastAPI Backend (WebSocket Server) → Web Monitoring Client (Real-Time UI)`
+```bash 
+Sensors → ESP32 (Fuzzy Logic Engine) → FastAPI Backend (WebSocket Server) → Web Monitoring Client (Real-Time UI)```
+
 The system utilized WebSocket communication to enable real-time, bidirectional data exchange between the backend server and the web client. This approach allowed instant status updates and responsive control without polling delays.
 
 ## 📦 Repository Status
